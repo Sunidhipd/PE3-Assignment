@@ -30,10 +30,4 @@ public class ThreeExceptions {
 
     }
 
-    public static void main(String args[]) {
-        ThreeExceptions th=new ThreeExceptions();
-        th.indexOutOFBoundsException();
-        th.nullPointerException();
-        th.negativeArraySizeException();
-    }
 }
