@@ -6,10 +6,6 @@ import java.util.Scanner;
 
 
 public class FirstAndLastDateOfWeek {
-    public static void main(String args[]) {
-        Calendar c = Calendar.getInstance();
-        System.out.println(findDate(c));
-    }
 
     public static String[] findDate(Calendar c){
         DateFormat df = new SimpleDateFormat("EEE dd/MM/yyyy");
